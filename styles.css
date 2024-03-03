@@ -1,16 +1,49 @@
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: silver;
+
+    margin: 50px;
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: silver;
+
+    margin: 50px;
+}
 body{
-    background-color: black;
+    margin: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 h1{
+    border-top-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-left-width: 7px;
+    border-left-color: rgb(24, 247, 247);
     color: aqua;
     font-family: "Roboto", "Press Start 2P", sans-serif;
 }
 p{
+    border-style: double;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: silver;
+    padding: 5px;
     background-color: beige;
     color: black;
     font-family: "Roboto", "Press Start 2P", sans-serif;
     font-style: italic;
     font-weight: bold;
-    text-decoration: cyan underline;
+    text-decoration: cyan;
     font-size: large;
 }
